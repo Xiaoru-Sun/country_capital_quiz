@@ -1,0 +1,40 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 20%;
+}
+
+.next {
+  margin: 10px;
+  padding: 5px 25px;
+  border-radius: 8px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.options-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.option-button {
+  width: 40%;
+  padding: 10px;
+  margin: 5px 10px;
+  font-size: medium;
+  font-weight: bold;
+  border-radius: 8px;
+  text-align: center;
+  border: 2px solid;
+}
+
+.green {
+  background-color: green;
+}
