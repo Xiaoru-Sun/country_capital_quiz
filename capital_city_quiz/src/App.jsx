@@ -96,7 +96,6 @@ function App() {
             shuffledQuizBank={shuffledQuizBank}
             handleClick={handleClick}
           ></QuizCard>
-          {isAnswerCorrect}
           <button
             disabled={!isAnswerCorrect}
             onClick={handleNext}
